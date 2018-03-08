@@ -1,15 +1,15 @@
-import React, {Component} from 'react'
-import {render} from 'react-dom'
+import React, { Component } from 'react'
+import { render } from 'react-dom'
 
 import Example from '../../src'
 
 class Demo extends Component {
   render() {
-    return <div>
+    return (<div>
       <h1>camera-scan Demo</h1>
-      <Example/>
-    </div>
+      <Example />
+    </div>)
   }
 }
 
-render(<Demo/>, document.querySelector('#demo'))
+render(<Demo />, document.querySelector('#demo'))
