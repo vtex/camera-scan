@@ -1,0 +1,11 @@
+{
+  "presets": [["es2015", { "loose": true }], "stage-2", "react"],
+  "env": {
+    "production": {
+      "plugins": [
+        ["transform-react-remove-prop-types", { "mode": "wrap" }],
+        "transform-react-constant-elements"
+      ]
+    }
+  }
+}
